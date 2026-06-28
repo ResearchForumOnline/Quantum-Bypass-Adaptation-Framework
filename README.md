@@ -1,24 +1,34 @@
-# 💠 Quantum Bypass Framework
+# Quantum Bypass Adaptation Framework
 
-**Bypass the classical–quantum barrier using advanced fractal–ethics mathematics.**
+A public experimental framework for exploring adaptive mathematical models, noisy signal behaviour, and quantum-inspired optimisation ideas.
 
----
-## 🚀 Overview
-This repository fuses two core engines:
+This repository is research-oriented. It should be treated as a simulation and modelling project, not as proof of a deployed quantum security system. For applied secure-connection proof-of-concept work, see the QuantumEncryption1 and TalkToAI project surfaces.
 
-1. **Zero Quantum Bypass** – higher‑dimensional entanglement, chaos filtering, and ethical overlays.
-2. **Genetic Adaptation Equation** – real‑time evolutionary tuning for system learning.
+## Purpose
 
-Together, they deliver a practical Python toolkit to *simulate, test, and deploy* adaptive bypass strategies that thrive even in noisy quantum‑like environments.
+The framework connects two research lanes:
 
----
-## 📂 Project Structure
-```
+1. Quantum-inspired signal modelling: entanglement-like terms, noise handling, and higher-dimensional search ideas.
+2. Adaptive tuning: genetic-style update rules for testing how model parameters respond under changing conditions.
+
+The practical aim is to support repeatable experiments that can later inform secure communications, optimisation, and proof-of-concept demonstrations.
+
+## Related Public Projects
+
+| Project | Link |
+| --- | --- |
+| QuantumEncryption1 | https://quantumencryption1.com/ |
+| TalkToAI | https://talktoai.org/ |
+| Research hub | https://research.talktoai.org/ |
+| Project hub | https://github.com/ResearchForumOnline/ZEROtalktoai |
+
+## Project Structure
+
+```text
 Quantum-Bypass-Framework/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
-├── .gitignore
 ├── data/
 │   └── sample_signals.json
 ├── src/
@@ -33,42 +43,54 @@ Quantum-Bypass-Framework/
     └── demo_bypass_framework.ipynb
 ```
 
----
-## 🔬 Core Equations
-```math
-\textbf{Entanglement Model:}\
-E(x,y,\psi) = \frac{\beta \sin(\psi x) e^{\lambda y}}{\theta x^2 + y^2}
+## Example Equations
 
-\textbf{Genetic Adaptation:}\
-G(x) = b_2 \log(b_1 + \eta Q |x|) e^{\lambda x} \bigl(1 + \alpha \delta_-(x) + \beta \delta_+(x) + \gamma e^{-\theta Q x^2}\bigr)
+```math
+E(x,y,\psi) = \frac{\beta \sin(\psi x) e^{\lambda y}}{\theta x^2 + y^2}
 ```
 
----
-## ⚡ Quickstart
+```math
+G(x) = b_2 \log(b_1 + \eta Q |x|) e^{\lambda x} \left(1 + \alpha \delta_-(x) + \beta \delta_+(x) + \gamma e^{-\theta Q x^2}\right)
+```
+
+These equations are starting points for simulation and review. Validate assumptions, parameter ranges, and numerical stability before using them in any applied work.
+
+## Quickstart
+
 ```bash
 pip install -r requirements.txt
 python - << 'PY'
 from src import QuantumBypassSystem
+
 model = QuantumBypassSystem()
 result = model.process(0.7, 1.3)
-print("Bypass output:", result)
+print("Model output:", result)
 PY
 ```
 
----
-## 📈 Data
-`data/sample_signals.json` contains 1,000 synthetic signal points for rapid experimentation.
+## Data
 
----
-## 🧪 Testing
+`data/sample_signals.json` contains synthetic signal points for rapid experimentation. Do not treat synthetic data as real-world validation.
+
+## Testing
+
 ```bash
 pytest tests
 ```
 
----
-## ✨ Contribute
-PRs welcome! Align with the **probability of goodness** ≥ 0.9.
+## Research Notes
 
----
-## 📜 License
+Good next steps:
+
+- Add a notebook that explains each equation and parameter.
+- Include baseline comparisons against simpler models.
+- Document limitations and known failure modes.
+- Connect the most credible experiments to QuantumEncryption1 proof-of-concept pages.
+
+## Security And Safety Boundary
+
+This repository should not contain private keys, credentials, production infrastructure notes, or claims of security protection that have not been independently tested.
+
+## License
+
 MIT
